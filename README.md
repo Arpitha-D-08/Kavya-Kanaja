@@ -136,6 +136,10 @@ Arpitha D
 # Project Domain
 Android Application Development with Generative AI
 
+## 📥 Download APK
+
+[Download Kavya Kanaja APK](https://github.com/Arpitha-D-08/Kavya-Kanaja/releases/tag/v1.0.0)
+
 # Demo Video 🎥
 
 [Kavya Kanaja Demo Link](https://drive.google.com/file/d/11qrdTK_WSxkRGg2fpxC8PQsFLaT5eBqz/view?usp=drivesdk)
