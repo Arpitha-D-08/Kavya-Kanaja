@@ -1,15 +1,18 @@
 # Kavya Kanaja 📖
 
 ## Project Overview
-Kavya Kanaja is a Kannada Poetry Android Application developed using Kotlin and Jetpack Compose.  
-The application helps preserve and promote Kannada literature through digital technology.
+# Kavya Kanaja 📚
+
+Kavya Kanaja is a modern Android application built with Kotlin and Jetpack Compose to preserve, explore, and promote Kannada poetry through an interactive digital experience.
 
 Users can:
 - Read Kannada poems
 - Listen to poem audio recitations
 - Learn Kannada word meanings
-- View poet biographies
-- Use AI chatbot assistance
+- explore poet biographies
+- search Kannada literature
+- save favorites
+- interact with an AI-powered assistant
 
 The app is inspired by the concept of “Duolingo for Kannada Literature”.
 
@@ -17,36 +20,51 @@ The app is inspired by the concept of “Duolingo for Kannada Literature”.
 
 # Features ✨
 
-- 📚 50+ Kannada Poems
-- 🔊 Audio Playback using MediaPlayer
-- 🤖 AI Chatbot using Groq API
-- ❤️ Favorites System
-- 🧠 Kannada Word Meaning Popup
-- 🗣️ Text-To-Speech Support
+- 📖 Browse and read Kannada poems
+- 🎵 Audio recitation of poems
+- 🤖 AI-powered chatbot assistance(Groq AI)
+- 🔍 Search poems in Kannada and English
+- ❤️ Save poems to Favorites
+- 👨‍🎨 Explore poet biographies
+- 💡 Get Kannada word meanings
+- 🔊 Text-to-Speech support
 - 🎤 Speech Recognition
-- 👤 Poet Biography Module
+- 🌿 Browse poems by categories
+- 📅 Poem of the Day
 - 🔐 Firebase Authentication
 
 ---
 
 # Technologies Used 🛠️
 
-## Frontend
+### Android
 - Kotlin
 - Jetpack Compose
-- Material 3 UI
+- Material 3
+- Android Studio
 
-## Backend & Database
+### Architecture
+- MVVM
+- Repository Pattern
+
+### Backend & Services
 - Firebase Authentication
 - Firebase Realtime Database
+- Groq API
 
-## APIs & Services
-- Groq AI API
-- Android MediaPlayer
-- Text-To-Speech
+### Android APIs
+- Text-to-Speech
 - Speech Recognition
+- MediaPlayer
 
 ---
+
+## 🏗️ Architecture
+
+The application follows the MVVM architecture to separate UI, business logic, and data handling.
+
+UI → ViewModel → Repository → Firebase / APIs
+
 
 # Project Structure 📂
 
@@ -89,13 +107,23 @@ app/
 
 ---
 
+## 👩‍💻 My Contribution
+
+- Designed and developed the Android application using Kotlin and Jetpack Compose
+- Implemented Firebase authentication and database integration
+- Developed poem browsing, search and favorites functionality
+- Integrated AI chatbot functionality
+- Implemented Text-to-Speech and Speech Recognition
+- Designed responsive UI using Material 3
+- Managed the project using Git and GitHub
+
 # Future Improvements 🚀
 
-- Dark Mode
-- Offline Audio Download
-- More Kannada Literature Categories
-- AI Voice Narration
-- Daily Learning Challenges
+- Offline poem reading
+- Personalized poem recommendations
+- Improved AI-powered literature assistance
+- Cloud-based audio management
+- Additional Indian language support
 
 ---
 
